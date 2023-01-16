@@ -16,7 +16,7 @@ const MIME_TYPES = {
   svg: 'image/svg+xml',
 };
 
-const STATIC_PATH = path.join(process.cwd(), './public')
+const STATIC_PATH = path.join(process.cwd(), './views')
 
 const toBool = 
   [
