@@ -8,6 +8,20 @@
 }
 
 body{
-    background-color: black;
-    color: white;        
+    background-image: url('../img/Ridge-Racer-3D-HD_2560x1600.jpg');
+    background-size: cover;
+    color: white;  
+    text-overflow: ellipsis;
+}
+h1{
+    font-size: 18rem;
+    text-align: left;
+    margin-top: 5%;
+    opacity: 0.4;
+}
+p{
+    font-size: 2rem;
+    text-align: left;
+    margin: 20px;
+    opacity: 0;
 }

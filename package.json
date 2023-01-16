@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-    "dev": "node ./src/app.js"
+    "dev": "nodemon ./src/app.js"
+    
   },
   "keywords": [],
-  "author": "Joao Paulo de Freitas",
-  "license": "ISC"
+  "author": "João Paulo de Freitas",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "sucrase": "^3.29.0"
+  }
 }

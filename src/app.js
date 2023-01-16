@@ -18,12 +18,20 @@ const MIME_TYPES = {
 
 const STATIC_PATH = path.join(process.cwd(), './public')
 
-const toBool = [() => true, () => false]
+const toBool = 
+  [
+    () => true,
+    () => false
+  ]
 
 const prepareFile = async (url) => {
 
 
-  const paths = [STATIC_PATH, url]
+  const paths = 
+    [
+      STATIC_PATH,
+      url
+    ]
   if (url.endsWith('/')) paths.push('home.html')
   const filePath = path.join(...paths)
   
